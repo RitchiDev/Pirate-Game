@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3507528080254759440}
   - component: {fileID: 6607699838864884590}
   - component: {fileID: 6074266327614855830}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 4360229540489717766}
   - component: {fileID: 169778189459638074}
   - component: {fileID: 4258669078726398911}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859266929659604481}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5548799566718060497}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,7 +544,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8295932497911851816}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 3381110431043222421}
   - component: {fileID: 1643032197692871811}
   - component: {fileID: 8075734845368680794}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 6715282695547283363}
   - component: {fileID: 8019628812370557270}
   - component: {fileID: 4342283991998052265}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Upgrade Cannon Left 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 6990582568912555460}
   - component: {fileID: 3795801146488774210}
   - component: {fileID: 2844319333396724715}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6935738187119484468}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 1144514147305724382}
   - component: {fileID: 2544682852142931761}
   - component: {fileID: 6267149252133472788}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   - component: {fileID: 9133513023928714593}
   - component: {fileID: 196698412705061829}
   - component: {fileID: 1395456237750130966}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   - component: {fileID: 5167253548186202951}
   - component: {fileID: 5167253548186202945}
   - component: {fileID: 5167253548186202944}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 5167253548268756796}
   - component: {fileID: 5167253548268756798}
   - component: {fileID: 5167253548268756797}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Upgrade Cannon Left 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,7 +1563,8 @@ GameObject:
   - component: {fileID: 5167253548503924782}
   - component: {fileID: 5167253548503924781}
   - component: {fileID: 2496141337533069209}
-  m_Layer: 3
+  - component: {fileID: 7896968447163959748}
+  m_Layer: 7
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1650,6 +1651,21 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: a0ff424aaa3d5214c8c5d451ecb0679f, type: 2}
   m_CannonBall: {fileID: 11400000, guid: 72153a252eb0f504387c6a28fca70639, type: 2}
   m_FirePoint: {fileID: 5521887457148370730}
+  m_MinRotation: 0
+  m_MaxRotation: 0
+--- !u!135 &7896968447163959748
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167253548503924819}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 45
+  m_Center: {x: 0, y: -0.000003820998, z: -45}
 --- !u!1 &5167253548509684489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,7 +1713,8 @@ GameObject:
   - component: {fileID: 5167253548531170626}
   - component: {fileID: 5167253548531170625}
   - component: {fileID: 1394565337556281556}
-  m_Layer: 3
+  - component: {fileID: 6740004122220784253}
+  m_Layer: 7
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1784,6 +1801,21 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: a0ff424aaa3d5214c8c5d451ecb0679f, type: 2}
   m_CannonBall: {fileID: 11400000, guid: 72153a252eb0f504387c6a28fca70639, type: 2}
   m_FirePoint: {fileID: 6277074450301959596}
+  m_MinRotation: 0
+  m_MaxRotation: 0
+--- !u!135 &6740004122220784253
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167253548531170631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 45
+  m_Center: {x: 0, y: -0.000003820998, z: -45}
 --- !u!1 &5167253548568474868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,7 +1827,7 @@ GameObject:
   - component: {fileID: 5167253548568474869}
   - component: {fileID: 5167253548568474871}
   - component: {fileID: 5167253548568474870}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1876,7 +1908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5167253548573842270}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Cannons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1945,7 @@ GameObject:
   - component: {fileID: 5167253548728678213}
   - component: {fileID: 5167253548728678215}
   - component: {fileID: 5167253548728678214}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +2028,7 @@ GameObject:
   - component: {fileID: 5167253548783151375}
   - component: {fileID: 5167253548783151369}
   - component: {fileID: 5167253548783151368}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Upgrade Cannon Right 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2081,7 +2113,7 @@ GameObject:
   - component: {fileID: 5167253548809727507}
   - component: {fileID: 5167253548809727981}
   - component: {fileID: 5167253548809727980}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2196,7 @@ GameObject:
   - component: {fileID: 5167253549015968639}
   - component: {fileID: 5167253549015968633}
   - component: {fileID: 5167253549015968632}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2279,7 @@ GameObject:
   - component: {fileID: 5167253549319098666}
   - component: {fileID: 5167253549319098660}
   - component: {fileID: 5167253549319098667}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2330,7 +2362,7 @@ GameObject:
   - component: {fileID: 5167253549453442729}
   - component: {fileID: 5167253549453442731}
   - component: {fileID: 5167253549453442730}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2475,7 +2507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a76ee1a9daaa9324b89e899a4f334a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Coins: 0
+  m_Coins: 1000
 --- !u!114 &5167253549807266233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2514,7 +2546,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!114 &5167253549807266239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,7 +2653,7 @@ GameObject:
   - component: {fileID: 5167253550041786528}
   - component: {fileID: 5167253550041786530}
   - component: {fileID: 5167253550041786529}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2704,7 +2736,7 @@ GameObject:
   - component: {fileID: 3913943284944013135}
   - component: {fileID: 4329491050785641642}
   - component: {fileID: 8304531420823769512}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Main Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2786,7 +2818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5521887457148370730}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2850,7 @@ GameObject:
   - component: {fileID: 8590920014294362952}
   - component: {fileID: 8911012703090620800}
   - component: {fileID: 7868377937128227813}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2901,7 +2933,7 @@ GameObject:
   - component: {fileID: 5689276953495021424}
   - component: {fileID: 3099659906265657165}
   - component: {fileID: 1499928791782839374}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Upgrade Cannon Right 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3062,7 +3094,8 @@ GameObject:
   - component: {fileID: 134128152730903383}
   - component: {fileID: 5016546488185530781}
   - component: {fileID: 1349018124966267420}
-  m_Layer: 3
+  - component: {fileID: 519505485355458975}
+  m_Layer: 7
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3149,6 +3182,21 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: a0ff424aaa3d5214c8c5d451ecb0679f, type: 2}
   m_CannonBall: {fileID: 11400000, guid: 72153a252eb0f504387c6a28fca70639, type: 2}
   m_FirePoint: {fileID: 6935738187119484468}
+  m_MinRotation: 0
+  m_MaxRotation: 0
+--- !u!135 &519505485355458975
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317972536698400662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 45
+  m_Center: {x: 0, y: -0.000003820998, z: -45}
 --- !u!1 &7541726298156867282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3160,7 +3208,7 @@ GameObject:
   - component: {fileID: 7885466943712331660}
   - component: {fileID: 3815372423810260820}
   - component: {fileID: 2020516562135313615}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_left 1 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3241,7 +3289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7286824462738211601}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3349,7 +3397,7 @@ GameObject:
   - component: {fileID: 3381201046849953685}
   - component: {fileID: 8976198910150344371}
   - component: {fileID: 1816500281569158655}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: cannon_right 1 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3430,7 +3478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598158954967101566}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629402697716440962}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6277074450301959596}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3531,7 +3579,8 @@ GameObject:
   - component: {fileID: 5983897882073449319}
   - component: {fileID: 276520235395273919}
   - component: {fileID: 2795124470784246062}
-  m_Layer: 3
+  - component: {fileID: 8778566075069562382}
+  m_Layer: 7
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3618,6 +3667,21 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: a0ff424aaa3d5214c8c5d451ecb0679f, type: 2}
   m_CannonBall: {fileID: 11400000, guid: 72153a252eb0f504387c6a28fca70639, type: 2}
   m_FirePoint: {fileID: 5548799566718060497}
+  m_MinRotation: 0
+  m_MaxRotation: 0
+--- !u!135 &8778566075069562382
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634439654981725164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 45
+  m_Center: {x: 0, y: -0.000003820998, z: -45}
 --- !u!1 &9176910444392433187
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,13 +5,25 @@ using UnityEngine.AI;
 
 public class ShipAI : MonoBehaviour
 {
+    [SerializeField] private EnemySettings m_Settings;
     private NavMeshAgent m_Agent;
-    private Vector3 m_TargetPosition;
+    private Transform m_TargetPosition;
 
     private void Awake()
     {
-        m_TargetPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
+        m_TargetPosition = GameObject.FindGameObjectWithTag("Player").transform;
         m_Agent = GetComponent<NavMeshAgent>();
-        m_Agent.SetDestination(m_TargetPosition);
+        StartCoroutine(UpdateTargetPosition());
+    }
+
+
+    private IEnumerator UpdateTargetPosition()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(m_Settings.TimeBetweenUpdate);
+            m_Agent.SetDestination(m_TargetPosition.position);
+            //Debug.Log(m_TargetPosition.position);
+        }
     }
 }

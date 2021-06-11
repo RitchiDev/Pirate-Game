@@ -12,5 +12,7 @@ public class CannonBall : MonoBehaviour
         {
             vitality.ChangeVitality(-m_Settings.Damage);
         }
+
+        gameObject.SetActive(false);
     }
 }
